@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>{% block title %}Library Admin{% endblock %}</title>  
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>  
+<body>  
+    <header>
+    </header>  
+    <main>{% block content %}{% endblock %}</main>  
+    <footer></footer>  
+</body>  
+</html>  
